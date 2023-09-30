@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun GreetingView(text: String) {
-    Text(text = text)
+    Text(text = text, color = MaterialTheme.colors.primary)
 }
 
 @Preview
